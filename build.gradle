@@ -12,6 +12,8 @@ repositories {
 dependencies {
     testImplementation "org.junit.jupiter:junit-jupiter-api:5.7.0"
     testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:5.7.0"
+    compile "io.qameta.allure:allure-java-commons:2.13.8"
+    compile "io.qameta.allure:allure-selenide:2.13.8"
 }
 
 test {
